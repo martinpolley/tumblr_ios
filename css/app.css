@@ -1,0 +1,103 @@
+/*body {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);*/
+
+div.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 49, 83, 0.9);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+img.no-resize { 
+  max-width: none; 
+}
+
+.username {
+  vertical-align: middle;
+  display:inline-block;
+  padding-left: 1rem;
+}
+
+.bottom_bar {
+  background-color: rgb(57, 72, 101);
+  position: fixed;
+  bottom: 0;
+  height: 4rem;
+  max-width: 100%;
+}
+
+.bottom_bar input[type="button"] {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  background-color: rgb(57, 72, 101);
+}
+
+.bottom_bar input[value="new"] {
+  background-color: rgb(72, 156, 208);
+}
+
+.buttons {
+  text-align: center;
+}
+
+.nevermind {
+  background-color: rgb(57, 72, 101);
+  position: fixed;
+  max-width: 100%;
+  bottom: 0;
+  height: 4rem;
+  display: none;
+  z-index: 2;
+}
+
+.nevermind p {
+  text-align: center;
+  color: rgba(110, 132, 132, 0.9);
+  padding-top: 1em;
+  font-size: 1rem;
+}
+
+.icons.row {
+  width: 100%;
+}
+
+.icon_button {
+  font-size: 2rem;
+  border-radius: 50%;
+  border: none;
+  padding: 0.3em 0.6em;
+  margin: 0.2em 0.16em;
+  color: rgb(47, 79, 79);
+}
+
+#b1.icon_button {
+  background-color: #ffffff !important;
+}
+
+#b2.icon_button {
+  background-color: #d47c02;
+}
+
+#b3.icon_button {
+  background-color: #f8d164;
+}
+
+#b4.icon_button {
+  background-color: #2dd160;
+}
+
+#b5.icon_button {
+  background-color: #44a9ce;
+}
+
+#b6.icon_button {
+  background-color: #a3a3a3;
+}
+
